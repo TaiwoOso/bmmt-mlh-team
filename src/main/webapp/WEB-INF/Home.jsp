@@ -23,11 +23,10 @@
           		<li class="nav-item">
           			<a class="nav-link" href="#">Entertainment</a>
           		</li>
-          		<li class="nav-item">
-          			<a class="nav-link" href="#">Can You Stop the Spread - Quiz</a>
-          		</li>
           		
-
+	          	<li class="nav-item">
+	          		<a class="nav-link" href="#" onClick="getQuizPage()">Can You Stop the Spread - Quiz</a>
+	          	</li>
           	</ul>
           </div>
         </div>
@@ -35,24 +34,30 @@
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <ul class="nav-bar nav">
-          	<li class="nav-item">
-          	<a class="nav-link" href="#">Bmmt Team</a>
-          	</li>
-          	
-          </ul>
-          
   		</nav>
   		 
    </div>
- <div class="container">
- 
-  
-  
-  </div>
+<div class="container">
+	 <h1>Welcome to Our Covid-19 Interactive Info Session</h1>
+</div>
+	 
+	<form action="/quiz.do" method="get" id="quiz-trigger"></form> 
+	 
    
 <script src="webjars/jquery/3.5.1/jquery.min.js"></script>
 <script src="webjars/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+
+<script type="text/javascript">
+	
+	function getQuizPage(){
+		
+		document.getElementById("quiz-trigger").submit();
+		
+		
+	}
+
+</script>
 
 </body>
 </html>
