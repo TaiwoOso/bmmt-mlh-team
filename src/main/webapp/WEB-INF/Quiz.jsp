@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,38 +19,15 @@
 
 <div class="container">
 	
-	<p class="text-centered lead">Question goes here</p>
+	<p class="text-centered lead">${quiz_questions.get(${index})}</p>
 
 </div>
 
 <div class="container">
 
-	<form action="/quiz.do">
+	<form action="/quiz.do" method="post">
 		
-		<div class="form-check">
-		  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="0" checked>
-		  <label class="form-check-label" for="exampleRadios1">
-		    Answer 1
-		  </label>
-		</div>
-		<div class="form-check">
-		  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="0" checked>
-		  <label class="form-check-label" for="exampleRadios1">
-		    Answer 2
-		  </label>
-		</div>
-		<div class="form-check">
-		  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="0" checked>
-		  <label class="form-check-label" for="exampleRadios1">
-		    Answer 3
-		  </label>
-		</div>
-		<div class="form-check">
-		  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="0" checked>
-		  <label class="form-check-label" for="exampleRadios1">
-		    Answer 4
-		  </label>
-		</div>
+		
 		
 		<hr>
 			
