@@ -15,17 +15,17 @@
           <div class="bg-dark p-4">
            	<ul class="nav-bar nav">
           		<li class="nav-item">
-          			<a class="nav-link" href="#">Home</a>
+          			<a class="nav-link" href="#" style="color:white">Home</a>
           		</li>
           		<li class="nav-item">
-          			<a class="nav-link" href="#">Fun Programming Projects</a>
+          			<a class="nav-link" href="#" style="color:white">Fun Programming Projects</a>
           		</li>
           		<li class="nav-item">
-          			<a class="nav-link" href="#">Entertainment</a>
+          			<a class="nav-link" href="#" style="color:white">Entertainment</a>
           		</li>
           		
 	          	<li class="nav-item">
-	          		<a class="nav-link" href="#" onClick="getQuizPage()">Can You Stop the Spread - Quiz</a>
+	          		<a class="nav-link" href="#" style="color:white" onClick="getQuizPage()">Can You Stop the Spread - Quiz</a>
 	          	</li>
           	</ul>
           </div>
