@@ -22,7 +22,7 @@ public class QuizServlet extends HttpServlet{
 		
 		// This will be used to send the user the array of questions later
 		request.getRequestDispatcher("/WEB-INF/Quiz.jsp").forward(request, response);
-		request.setAttribute("quiz_questions", theQuiz);
+		parseTheQuiz(request);
 		request.setAttribute("index", 0);
 		
 				
@@ -36,6 +36,19 @@ public class QuizServlet extends HttpServlet{
 			
 	}//doGet
 	
+	
+	private void parseTheQuiz(HttpServletRequest request) {
+		
+		
+		
+		for(int i = 0; i < theQuiz.length; i++) {
+			
+			request.setAttribute("Choice" + i, theQuiz[i]);
+			
+			
+		}//for
+		
+	}//parse
 	
 	
 

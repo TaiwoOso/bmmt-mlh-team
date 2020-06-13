@@ -1,3 +1,5 @@
+package quiz;
+
 public class Question {
   String myQuestion;
   String[] choices;

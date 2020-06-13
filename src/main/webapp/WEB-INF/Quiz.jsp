@@ -19,7 +19,7 @@
 
 <div class="container">
 	
-	<p class="text-centered lead">${quiz_questions.get(${index})}</p>
+	<p class="text-centered lead"></p>
 
 </div>
 
