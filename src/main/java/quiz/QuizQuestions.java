@@ -1,7 +1,7 @@
 import java.util.*;
 
-class Main {
-  public static void main(String[] args) {
+public class QuizQuestions {
+  public static Question[] getQuizQuestions() {
     Question[] QuestionArray = new Question[10];
     HashMap choiceMap = new HashMap();
     choiceMap.put(0, "A");
@@ -33,16 +33,17 @@ class Main {
         QuestionArray[i] = myQuestion;
         myChoices = myQuestion.getChoices();
 
-        System.out.print((i+1) + ". ");
+        /*System.out.print((i+1) + ". ");
         myQuestion.print();
         System.out.println("Correct Answer is " + choiceMap.get(myQuestion.getIndex()) + ". " + myChoices[myQuestion.getIndex()]);
-        System.out.println();
+        System.out.println();*/
       }
       else {
         i--;
       }
       
     }
+    return QuestionArray;
   }
 
  public static Question randomize(ArrayList<Question> qList) {
@@ -62,5 +63,4 @@ class Main {
       }
    return false;
  }
-
 }
