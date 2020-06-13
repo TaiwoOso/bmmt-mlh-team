@@ -1,0 +1,90 @@
+Adventure
+	Don Quixote by Miguel de Cervantes
+	The Three Musketeers by Alexandre Dumas
+	Treasure Island by Robert Louis Stevenson
+	King Solomon’s Mines by H. Rider Haggard and A. C. Michael
+	Journey to the Center of the Earth by Jules Verne
+Biopic
+	Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future by Ashlee Vance 
+	My Left Foot by Christy Brown 
+	The Disaster Artist: My Life Inside The Room, the Greatest Bad Movie Ever Made by Greg Sestero
+	Logicomix: An Epic Search for Truth by Apostolos Doxiadis
+	Catherine the Great: Portrait of a Woman by Robert K. Massie
+Comedy
+	Cold Comfort Farm, by Stella Gibbons
+	A Confederacy of Dunces, by John Kennedy Toole
+	Do the Windows Open?, by Julie Hecht
+	The Sellout, by Paul Beatty
+	Let’s Pretend This Never Happened (A Mostly True Memoir), by Jenny Lawson
+Crime
+	Claire DeWitt and the City of the Dead, by Sara Gran
+	Gone Girl, by Gillian Flynn
+	The Thief, by Fuminori Nakamura
+	Night Prayers, by Santiago Gamboa
+	And When She Was Good, by Laura Lippman
+Cult
+	Speedboat, by Renata Adler
+	The Catcher in the Rye, by J.D. Salinger
+	On the Road, by Jack Kerouac
+	A Confederacy of Dunces, by John Kennedy Toole
+	Stoner, by John Williams
+Disaster
+	AMERICAN WAR BY OMAR EL AKKAD
+	ANNIHILATION BY JEFF VANDERMEER
+	BEACONS: STORIES FOR OUR NOT-SO-DISTANT FUTURE, EDITED BY GREGORY NORMINTON
+	BLACKFISH CITY BY SAM J. MILLER
+	BREATH OF FRESH AIR BY AMULYA MALLADI
+Dramatic Love Stories
+	Outlander (Outlander, #1) by Diana Gabaldon
+	The Bronze Horseman (The Bronze Horseman, #1) by Paullina Simons
+	The Time Traveler's Wife by Audrey Niffenegger
+	Pride and Prejudice by Jane Austen
+	Jane Eyre by Charlotte Brontë
+Historical Fiction
+	A GENTLEMAN IN MOSCOW BY AMOR TOWLES
+	A RISING MAN BY ABIR MUKHERJEE
+	ALIAS GRACE BY MARGARET ATWOOD
+	AS MEAT LOVES SALT BY MARIA MCCANN
+	BELOVED BY TONI MORRISON
+Fantasy
+	HARRY POTTER AND THE SORCERER’S STONE BY J.K ROWLING
+	A GAME OF THRONES BY GEORGE R.R. MARTIN
+	THE NAME OF THE WIND BY PATRICK ROTHFUSS
+	THE WAY OF KINGS BY BRANDON SANDERSON
+	A WIZARD OF EARTHSEA BY URSULA LEGUIN
+Detective/Mystery
+	And Then There Were None by Agatha Christie 
+	The Big Sleep by Raymond Chandler 
+	Gone Girl by Gillian Flynn 
+	The Postman Always Rings Twice by James M. Cain
+	A Murder for Framing by Toby Flenderson
+Horror
+	The Terrifying Tales by Edgar Allan Poe
+	House of Leaves, by Mark Z. Danielewski
+	Rosemary’s Baby, by Ira Levin
+	The Haunting of Hill House, by Shirley Jackson
+	Lord of the Flies, by William Golding
+Romance
+	Pride and Prejudice by Jane Austen
+	Beautiful Disaster (Beautiful, #1) by Jamie McGuire
+	Twilight (Twilight, #1) by Stephenie Meyer
+	Perfect Chemistry (Perfect Chemistry, #1) by Simone Elkeles
+	The Notebook (The Notebook, #1) by Nicholas Sparks
+Science-Fiction
+	A SPACE ODYSSEY BY ARTHUR C. CLARKE 
+	1984 BY GEORGE ORWELL
+	THE LONG WAY TO A SMALL, ANGRY PLANET BY BECKY CHAMBERS
+	THE HUNGER GAMES BY SUZANNE COLLINS 
+	DOOMSDAY BOOK BY CONNIE WILLIS 
+War
+	The Iliad by Homer
+	History of the Peloponnesian War by Thucydides
+	War and Peace by Leo Tolstoy
+	With the Old Breed by E.B. Sledge
+	Battle Cry of Freedom by James McPherson
+Western
+	Lonesome Dove by Larry McMurtry
+	True Grit by Charles Portis
+	Blood Meridian, or the Evening Redness in the West by Cormac McCarthy
+	All the Pretty Horses (The Border Trilogy, #1) by Cormac McCarthy
+	Bury My Heart at Wounded Knee: An Indian History of the American West by Dee Brown
