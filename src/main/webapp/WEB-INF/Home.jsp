@@ -20,10 +20,7 @@
           		<li class="nav-item">
           			<a class="nav-link" href="#" style="color:white">Fun Programming Projects</a>
           		</li>
-          		<li class="nav-item">
-          			<a class="nav-link" href="#" style="color:white">Entertainment</a>
-          		</li>
-          		
+          		       		
 	          	<li class="nav-item">
 	          		<a class="nav-link" href="#" style="color:white" onClick="getQuizPage()">Can You Stop the Spread - Quiz</a>
 	          	</li>
