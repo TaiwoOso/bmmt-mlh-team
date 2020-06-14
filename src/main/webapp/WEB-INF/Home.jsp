@@ -39,8 +39,8 @@
    </div>
 <div class="container">
 	 <h1>Welcome to Our Covid-19 Interactive Info Session</h1>
-	 <img src="City-Park.png">
-	 <img src="drawmap.jpg">
+	 <img src="/images/City-Park.png">
+	 <img src="/images/drawmap.jpg">
 	 
 </div>
 	 
