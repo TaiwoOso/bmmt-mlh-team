@@ -14,7 +14,7 @@ public class ProgrammerServlet extends HttpServlet{
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
 		
-		
+		QuizServlet.index = -1;
 		request.getRequestDispatcher("/WEB-INF/Programmer.jsp").forward(request, response);
 		
 	}//doGet

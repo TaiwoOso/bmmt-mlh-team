@@ -31,6 +31,18 @@ public class QuizAnswerCheck extends HttpServlet{
 			
 		}
 		
+		if(QuizServlet.index == 9) {
+			
+			request.setAttribute("action", "/covid.do");
+			request.setAttribute("back-prompt", "Horray You Finished it! Now you know how to stop the spread!");
+			
+		}else {
+			
+			request.setAttribute("action", "/quiz.do");
+			request.setAttribute("back-prompt", "");
+			
+		}
+		
 		request.getRequestDispatcher("/WEB-INF/Answer.jsp").forward(request, response);
 			
 	}//doGet

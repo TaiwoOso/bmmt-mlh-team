@@ -17,6 +17,7 @@ public class HomeServlet extends HttpServlet{
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
 		
 		//forward to our home.jsp upon entry to our page
+		QuizServlet.index = -1;
 		request.getRequestDispatcher("/WEB-INF/Home.jsp").forward(request, response);
 			
 	}//doGet

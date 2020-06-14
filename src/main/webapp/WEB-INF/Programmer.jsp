@@ -21,9 +21,6 @@
 		      <li class="nav-item">
 		        <a class="nav-link" href="#" onClick="getHomePage()">Home<span class="sr-only">(current)</span></a>
 		      </li>	      
-		      <li class="nav-item active">
-		        <a class="nav-link" href="#">Fun Programming Projects</a>
-		      </li>
 		      <li class="nav-item">
 		        <a class="nav-link" href="#" onClick="getQuizPage()">Can You Stop the Spread - Quiz</a>
 		      </li>	      
@@ -31,10 +28,10 @@
 		  </div>
 		</nav>
 		<h1 class="text-center">Programmer Before Quarantine</h1>
-		<img src="images/programmer.jpg" alt="Kawaii Programmer">
+		<img src="/images/programmer.jpg" alt="Kawaii Programmer">
 		<hr>
 		<h1 class="text-center">Programmer After Quarantine</h1>
-		<img src="programmer.jpg" usemap="#image-map">
+		<img src="/images/programmer.jpg" usemap="#image-map">
 		<map name="image-map">
 		    <area target="_self" alt="Beautiful Face" title="Beautiful Face" href="" coords="135,90,224,91,251,135,216,160,151,159,106,135,119,112" shape="poly">
 		    <area target="_self" alt="Controller" title="Controller" href="" coords="147,212,211,214,207,223,219,235,221,251,190,251,147,248,166,240,161,223" shape="poly">

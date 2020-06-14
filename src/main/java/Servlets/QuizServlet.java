@@ -15,7 +15,7 @@ import quiz.QuizQuestions;
 public class QuizServlet extends HttpServlet{
 	
 	private Question[] theQuiz = QuizQuestions.getQuizQuestions();
-	private int index = -1;
+	public static int index = -1;
 	private int points = 0;
 
 	

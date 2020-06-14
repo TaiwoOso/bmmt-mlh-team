@@ -20,8 +20,10 @@
 		
 		<p class="text-centered">${feedback}</p>
 		
+		<p class="text-centered">${back-prompt}</p>
 		
-		<form action="/quiz.do" method="get">
+		
+		<form action="${action}" method="get">
 		
 			<input type="submit" class="btn btn-primary" value="continue">
 	
