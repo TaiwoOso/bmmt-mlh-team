@@ -7,6 +7,8 @@
 <meta charset="ISO-8859-1">
 <title>Quiz Page</title>
 
+<link rel="shortcut icon" href="#">
+
 <link href="webjars/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"> 
 </head>
 <body>
@@ -29,10 +31,10 @@
 
 	<br>
 	
-	<form action="/quiz.do" method="post">
+	<form action="/quizAnswerCheck.do" method="get">
 		<div class="form-check">
 			<c:forEach items="${choices}" var="choice">
-				<input class="form-check-input" type="radio" name="userchoice" id="exampleRadios1" value="${choice}" checked>
+				<input class="form-check-input" type="radio" name="userchoice" value="${choice}" checked>
 				  <label class="form-check-label" for="${choice}">
 				    ${choice}
 				  </label>
