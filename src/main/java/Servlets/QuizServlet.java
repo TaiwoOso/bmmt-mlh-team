@@ -15,40 +15,62 @@ import quiz.QuizQuestions;
 public class QuizServlet extends HttpServlet{
 	
 	private Question[] theQuiz = QuizQuestions.getQuizQuestions();
+	private int index = 0;
+	private int points = 0;
 
 	
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
 		
 		// This will be used to send the user the array of questions later
+		giveAttributes(request);
 		request.getRequestDispatcher("/WEB-INF/Quiz.jsp").forward(request, response);
-		parseTheQuiz(request);
-		request.setAttribute("index", 0);
-		
 				
 	}//doGet
 	
 	@Override
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
 		
-		
-		
+		System.out.println(request.getAttribute("userchoice"));
+		if(answerCorrect((String) request.getAttribute("userchoice"))) {
+			
+			System.out.println("HORRAY");
+			
+		}else {
+			
+			System.out.println(request.getAttribute("userchoice"));
+			
+		}
 			
 	}//doGet
 	
 	
-	private void parseTheQuiz(HttpServletRequest request) {
+	private void giveAttributes(HttpServletRequest request) {
+		
+		String [] choices = theQuiz[index].getChoices();
+		request.setAttribute("answer", theQuiz[index].getIndex());
+		request.setAttribute("choices", choices);
+		request.setAttribute("index", index);
+		request.setAttribute("question", theQuiz[index].getQuestion());
 		
 		
+	}//giveAttributes
+	
+	
+	private boolean answerCorrect(String answer) {
 		
-		for(int i = 0; i < theQuiz.length; i++) {
+		String [] choices = theQuiz[index].getChoices();
+		if(answer.equals(choices[theQuiz[index].getIndex()])) {
 			
-			request.setAttribute("Choice" + i, theQuiz[i]);
+			return true;
 			
 			
-		}//for
+		}//if
 		
-	}//parse
+		return false;
+		
+		
+	}//compareAnswer
 	
 	
 

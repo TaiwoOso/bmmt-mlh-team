@@ -25,10 +25,22 @@
 
 <div class="container">
 
+	<h1>${question}</h1>
+
+	<br>
+	
 	<form action="/quiz.do" method="post">
-		
-		
-		
+		<div class="form-check">
+			<c:forEach items="${choices}" var="choice">
+				<input class="form-check-input" type="radio" name="userchoice" id="exampleRadios1" value="${choice}" checked>
+				  <label class="form-check-label" for="${choice}">
+				    ${choice}
+				  </label>
+				  
+				  <br>
+			</c:forEach>
+		</div>
+			
 		<hr>
 			
 		<button type="submit" class="btn btn-success">Submit</button>
