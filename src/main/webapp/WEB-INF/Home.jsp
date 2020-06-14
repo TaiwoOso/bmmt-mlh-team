@@ -18,7 +18,7 @@
           			<a class="nav-link" href="#" style="color:white">Home</a>
           		</li>
           		<li class="nav-item">
-          			<a class="nav-link" href="#" style="color:white">Fun Programming Projects</a>
+          			<a class="nav-link" href="#" style="color:white" onClick="getProgrammerPage()">Fun Programming Projects</a>
           		</li>
           		<li class="nav-item">
           			<a class="nav-link" href="#" style="color:white">Entertainment</a>
@@ -65,7 +65,8 @@
 
 </div>
 	<form action="/quiz.do" method="get" id="quiz-trigger"></form> 
-	 
+	
+	 <form action="/programmer.do" method="get" id="programmer-trigger"></form> 
    
 <script src="webjars/jquery/3.5.1/jquery.min.js"></script>
 <script src="webjars/bootstrap/4.5.0/js/bootstrap.min.js"></script>
@@ -76,6 +77,14 @@
 	function getQuizPage(){
 		
 		document.getElementById("quiz-trigger").submit();
+		
+		
+	}
+	
+	function getProgrammerPage(){
+		
+		
+		document.getElementById("programmer-trigger").submit();
 		
 		
 	}
