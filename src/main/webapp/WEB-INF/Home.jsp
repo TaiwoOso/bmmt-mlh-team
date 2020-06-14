@@ -37,10 +37,8 @@
   		</nav>
   		 
    </div>
-<div class="container">
 	<h1 class="text-center">Welcome to Our Covid-19 Interactive Info Session</h1>
 	<hr>
-</div>
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
     <h1 class="display">COVID-19</h1>
@@ -50,7 +48,7 @@
 </div>
 <hr>
 <div>
-	<img src="images/parkCropped.jpg" usemap="#image-map">
+	<img src="/images/parkCropped.jpg" usemap="#image-map">
 	<map name="image-map">
 	    <area target="_self" alt="Sun" title="Sun" href="" coords="263,44,308,53,294,89,281,142,272,145,260,128,246,90,228,53" shape="poly">
 	    <area target="_self" alt="Dog" title="Dog" href="" coords="199,323,188,329,181,349,186,357,199,356,203,369,198,389,208,389,214,373,219,381,217,389,224,391,223,372,244,365,244,376,240,382,248,379,252,369,256,358,266,355,276,354,279,361,283,350,264,353,259,338,253,321,252,331,236,333,220,321" shape="poly" >
@@ -64,6 +62,7 @@
 	    <area target="_self" alt="Masked Girl 1 (Mask)" title="Masked Girl 1 (Mask)" href="" coords="374,273,356,292,342,283,351,241,365,233,390,237,395,257,404,285,392,286" shape="poly">
 	    <area target="_self" alt="Masked Man (Mask)" title="Masked Man (Mask)" href="" coords="418,200,395,174,413,151,440,173" shape="poly">
 	</map>
+
 </div>
 	<form action="/quiz.do" method="get" id="quiz-trigger"></form> 
 	 
